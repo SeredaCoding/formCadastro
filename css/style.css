@@ -1,0 +1,34 @@
+.bg{
+    background-color: #068ed0 !important;
+}
+.custom-thead {
+    background-color: #068ed0 !important; /* Cor de fundo aplicada ao <thead> */
+    color: white; /* Opcional: cor do texto para contraste */
+}
+
+.logo_rodape {
+    min-width: 120px;
+    width: 11%;
+}
+
+/* Cor padrão do label e borda inferior do input */
+.form-control {
+    border-color: transparent; /* Remove a cor padrão das bordas */
+    border-bottom-color: #dee2e6; /* Cor padrão da borda inferior */
+    box-shadow: none;
+}
+
+/* Cor do label quando o input está em foco */
+.form-control:focus + .form-label {
+    color: #007bff; /* Cor azul do label */
+}
+
+/* Cor da borda inferior do input quando ele está em foco */
+.form-control:focus {
+    border-color: transparent; /* Remove a cor padrão das bordas */
+    border-bottom-color: #007bff; /* Adiciona cor azul à borda inferior */
+    box-shadow: none; /* Remove a sombra padrão do foco */
+}
+
+
+
