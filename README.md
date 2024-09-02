@@ -3,6 +3,7 @@
 Formulário de Cadastro de Contatos
 =
 Este projeto é um sistema de cadastro de contatos desenvolvido em PHP com a arquitetura MVC, utilizando MySQL e PDO para conexão com o banco de dados.
+O sistema foi feito como forma de teste para um processo seletivo na empresa Alphacode IT Solutions
 
 --------------------------------
 Instruções para Configuração:
