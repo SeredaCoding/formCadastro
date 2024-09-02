@@ -5,7 +5,7 @@ Formulário de Cadastro de Contatos
 Este projeto é um sistema de cadastro de contatos desenvolvido em PHP com a arquitetura MVC, utilizando MySQL e PDO para conexão com o banco de dados.
 
 --------------------------------
-Instruções para Configuração
+Instruções para Configuração:
 
 Requisitos:
 
@@ -16,7 +16,6 @@ MySQL
 Servidor Web (Apache ou Nginx)
 
 --------------------------------
-Clonar o Repositório
 
 Clone o repositório usando o comando:
 
@@ -24,7 +23,7 @@ git clone https://github.com/SeredaCoding/formCadastro
 
 --------------------------------
 
-Configuração do Servidor Web
+Configuração do Servidor Web:
 
 Copie o projeto para o diretório raiz do seu servidor web, por exemplo:
 
@@ -36,7 +35,7 @@ Para outros servidores, ajuste conforme necessário.
 
 --------------------------------
 
-Configuração do Banco de Dados
+Configuração do Banco de Dados:
 
 Exporte o arquivo dump/cadastros_contatos.sql para o seu servidor MySQL. O arquivo já inclui o comando CREATE DATABASE IF NOT EXISTS, portanto, o banco de dados será criado automaticamente.
 
