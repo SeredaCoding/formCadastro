@@ -39,7 +39,7 @@ Para outros servidores, ajuste conforme necessário.
 
 Configuração do Banco de Dados:
 
-Exporte o arquivo dump/cadastros_contatos.sql para o seu servidor MySQL. O arquivo já inclui o comando CREATE DATABASE IF NOT EXISTS, portanto, o banco de dados será criado automaticamente.
+Exporte o arquivo dump_sql/cadastros_contatos.sql para o seu servidor MySQL. O arquivo já inclui o comando CREATE DATABASE IF NOT EXISTS, portanto, o banco de dados será criado automaticamente.
 
 Com phpMyAdmin:
 
@@ -49,7 +49,7 @@ Vá para a aba "Importar" e faça o upload do arquivo cadastros_contatos.sql.
 
 Com a linha de comando:
 
-mysql -u <USUARIO> -p < < dump/cadastros_contatos.sql
+mysql -u <USUARIO> -p < < dump_sql/cadastros_contatos.sql
 
 Configure também o arquivo de configuração para conexão com o banco de dados caso achar necessário:
 
